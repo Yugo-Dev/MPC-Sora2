@@ -256,13 +256,6 @@
    download_video を使って、ビデオを /Users/yugo/claude/output/video.mp4 に保存してください。
    ```
 
-## バックアップファイル
-
-元のファイルはバックアップされています:
-- `/Users/yugo/claude/mcp/sora-mcp-server/src/index.ts.backup_[タイムスタンプ]`
-
-問題が発生した場合は、バックアップファイルから復元できます。
-
 ## 参考情報
 
 ### OpenAI Sora 2 公式ドキュメント
