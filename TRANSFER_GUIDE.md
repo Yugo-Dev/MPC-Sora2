@@ -1,36 +1,5 @@
 # Ubuntu環境への転送とインストール - クイックガイド
 
-## 📦 パッケージの場所
-
-作成されたパッケージ：
-- **ディレクトリ**: `/Users/yugo/claude/mcp/sora-ubuntu-package/`
-- **圧縮ファイル**: `/Users/yugo/claude/mcp/sora-ubuntu-package.tar.gz` (約27KB)
-
-## 🚀 Ubuntu環境への転送方法
-
-### 方法1: SCP（SSH経由）
-
-Ubuntu環境にSSHでアクセスできる場合：
-
-```bash
-# macOSから実行
-scp /Users/yugo/claude/mcp/sora-ubuntu-package.tar.gz username@ubuntu-host:~/
-```
-
-### 方法2: USBドライブ
-
-1. USBドライブをmacOSに接続
-2. 圧縮ファイルをコピー：
-   ```bash
-   cp /Users/yugo/claude/mcp/sora-ubuntu-package.tar.gz /Volumes/USB_DRIVE/
-   ```
-3. USBドライブをUbuntu環境に接続
-4. ファイルをホームディレクトリにコピー
-
-### 方法3: 共有フォルダ
-
-ネットワーク共有やクラウドストレージを使用して転送
-
 ## 📥 Ubuntu環境でのインストール手順
 
 ### ステップ1: パッケージの展開
